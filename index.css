@@ -1,0 +1,343 @@
+body {
+  font-family: "","Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.f {
+  background-image: url(img/overlay.png);
+}
+
+.topmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+.b li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.c a, .c:visited a {
+  color: #dd2157;
+  cursor: pointer;
+}
+
+.d a, .e a, .d:visited a, .e:visited a {
+  color: black;
+}
+
+.c:hover a, .d:hover a, .e:hover a {
+  color: #dd2157;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lista a, .lista:visited a, .listb a, .listb:visited a, .listc a, .listc:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.lista:hover a, .listb:hover a, .listc:hover a {
+  cursor: pointer;
+}
+
+.footerc a, .footerc:visited a, .footerd a, .footerd:visited a, .footere a, .footere:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.footerc:hover a, .footerd:hover a, .footere:hover a {
+  cursor: pointer;
+}
+
+.f {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.f h1 {
+  font-size: 160px;
+  padding-top: 170px;
+}
+
+.g, .i {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.g, .m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.news, .service {
+  color: #dd2157;
+  font-weight: bold;
+  width: 380px;
+  font-size: 40px;
+}
+
+.h {
+  margin-left: 60px;
+}
+
+.newsa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.newsa p {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.timea {
+  font-size: 15px;
+}
+
+.material-symbols-outlined {
+  color: #dd2157;
+  font-size: 50px;
+}
+
+.j, .k, .l {
+  width: 32%;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  padding: 5%;
+  -webkit-box-shadow: -10px 10px 10px 4px #f7f7f7;
+          box-shadow: -10px 10px 10px 4px #f7f7f7;
+}
+
+.j p, .k p, .l p {
+  text-align: start;
+  font-size: 14px;
+}
+
+.servicea {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.k, .l {
+  margin-left: 30px;
+}
+
+.service::after {
+  content: "SERVICE";
+  color: #f2f2f2;
+  font-size: 160px;
+  font-weight: bold;
+  z-index: -1;
+  position: absolute;
+  right: 20px;
+  margin-top: -40px;
+}
+
+.footera {
+  margin-top: 100px;
+  background-color: #dd2157;
+  color: white;
+}
+
+.footera h4 {
+  font-size: 14px;
+}
+
+.footerb {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footerb li {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footerd, .footere {
+  margin-left: 30px;
+}
+
+.footerm {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.footerc:hover, .footerd:hover, .footere:hover {
+  cursor: pointer;
+}
+
+.bergermenu, .close, .menulist, .berger {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .f {
+    height: 450px;
+  }
+  .f h1 {
+    font-size: 100px;
+  }
+  .f h3 {
+    font-size: 22px;
+  }
+  .material-symbols-outlined {
+    font-size: 70px;
+  }
+  .servicea {
+    font-size: 16px;
+  }
+  .icon {
+    width: 120px;
+  }
+  .a {
+    margin-left: 20px;
+  }
+  .b {
+    display: none;
+  }
+  .berger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60px;
+    height: 67px;
+    background-color: #dd2157;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+  .berger:hover {
+    cursor: pointer;
+  }
+  .bergermenu, .close {
+    color: white;
+    display: block;
+    z-index: 1;
+    padding: 10px;
+    font-size: 40px;
+  }
+  .close {
+    display: none;
+  }
+  .menulist {
+    width: 200px;
+    height: 100vh;
+    background-color: #dd2157;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding-left: 60px;
+    padding-top: 100px;
+  }
+  .menulist h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .menulist h3:hover {
+    cursor: pointer;
+  }
+  .menulist.is-active {
+    display: inline;
+    color: white;
+  }
+  .berger.is-active {
+    z-index: 2;
+  }
+  .berger.is-active .bergermenu {
+    display: none;
+  }
+  .berger.is-active .close {
+    display: inline;
+    color: white;
+  }
+  .g {
+    display: -ms-grid;
+    display: grid;
+    margin-left: 20px;
+  }
+  .h {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .m {
+    display: -ms-grid;
+    display: grid;
+    margin-left: 0px;
+  }
+  .i {
+    margin-left: 20px;
+  }
+  .j, .k, .l {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .service, .news {
+    font-size: 35px;
+  }
+  .service::after {
+    content: "SERVICE";
+    color: #f2f2f2;
+    font-size: 60px;
+    font-weight: bold;
+    z-index: -1;
+    position: absolute;
+    right: 20px;
+    margin-top: 30px;
+  }
+  .footera {
+    margin-top: 50px;
+    background-color: #dd2157;
+    color: white;
+  }
+  .footera h4 {
+    font-size: 12px;
+  }
+  .footerb {
+    padding-top: 40px;
+  }
+  .footerb li {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .footerm {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
