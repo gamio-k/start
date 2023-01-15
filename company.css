@@ -1,0 +1,263 @@
+body {
+  font-family: "","Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.topmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+.b li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.b {
+  text-decoration: none;
+}
+
+.e a, .e:visited a {
+  color: #dd2157;
+  cursor: pointer;
+}
+
+.d a, .c a, .d:visited a, .c:visited a {
+  color: black;
+}
+
+.c:hover a, .d:hover a, .e:hover a {
+  color: #dd2157;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lista a, .lista:visited a, .listb a, .listb:visited a, .listc a, .listc:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.lista:hover a, .listb:hover a, .listc:hover a {
+  cursor: pointer;
+}
+
+.footerc a, .footerc:visited a, .footerd a, .footerd:visited a, .footere a, .footere:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.footerc:hover a, .footerd:hover a, .footere:hover a {
+  cursor: pointer;
+}
+
+.f {
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  background-image: url(img/overlay.png);
+}
+
+.company {
+  padding-top: 80px;
+}
+
+.company-a, .h {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+table {
+  width: 100%;
+}
+
+.aaa {
+  width: 200px;
+}
+
+th {
+  height: 80px;
+}
+
+.newsa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.newsa p {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.h {
+  margin-top: 100px;
+}
+
+.footera {
+  margin-top: 100px;
+  background-color: #dd2157;
+  color: white;
+}
+
+.footera h4 {
+  font-size: 14px;
+}
+
+.footerb {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footerb li {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footerd, .footere {
+  margin-left: 30px;
+}
+
+.footerm {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.footerc:hover, .footerd:hover, .footere:hover {
+  cursor: pointer;
+}
+
+.bergermenu, .close, .menulist, .berger {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .f {
+    height: 100px;
+  }
+  .company {
+    padding-top: 40px;
+  }
+  .material-symbols-outlined {
+    font-size: 70px;
+  }
+  .icon {
+    width: 120px;
+  }
+  .a {
+    margin-left: 20px;
+  }
+  .b {
+    display: none;
+  }
+  .company-a, .h {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+  }
+  .aaa {
+    width: 150px;
+  }
+  .berger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60px;
+    height: 67px;
+    background-color: #dd2157;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+  .berger:hover {
+    cursor: pointer;
+  }
+  .bergermenu, .close {
+    color: white;
+    display: block;
+    z-index: 1;
+    padding: 10px;
+    font-size: 40px;
+  }
+  .close {
+    display: none;
+  }
+  .menulist {
+    width: 200px;
+    height: 100vh;
+    background-color: #dd2157;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding-left: 60px;
+    padding-top: 100px;
+  }
+  .menulist h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .menulist h3:hover {
+    cursor: pointer;
+  }
+  .menulist.is-active {
+    display: inline;
+    color: white;
+  }
+  .berger.is-active {
+    z-index: 2;
+  }
+  .berger.is-active .bergermenu {
+    display: none;
+  }
+  .berger.is-active .close {
+    display: inline;
+    color: white;
+  }
+  .footera {
+    margin-top: 50px;
+    background-color: #dd2157;
+    color: white;
+  }
+  .footera h4 {
+    font-size: 12px;
+  }
+  .footerb {
+    padding-top: 40px;
+  }
+  .footerb li {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .footerm {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=company.css.map */
