@@ -1,0 +1,306 @@
+body {
+  font-family: "","Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.topmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+.b li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.d a, .d:visited a {
+  color: #dd2157;
+  cursor: pointer;
+}
+
+.c a, .e a, .c:visited a, .e:visited a {
+  color: black;
+}
+
+.c:hover a, .d:hover a, .e:hover a {
+  color: #dd2157;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lista a, .lista:visited a, .listb a, .listb:visited a, .listc a, .listc:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.lista:hover a, .listb:hover a, .listc:hover a {
+  cursor: pointer;
+}
+
+.footerc a, .footerc:visited a, .footerd a, .footerd:visited a, .footere a, .footere:visited a {
+  color: white;
+  cursor: pointer;
+}
+
+.footerc:hover a, .footerd:hover a, .footere:hover a {
+  cursor: pointer;
+}
+
+.f {
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  background-image: url(img/overlay.png);
+}
+
+.f h1 {
+  font-size: 160px;
+  padding-top: 170px;
+}
+
+.imga {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.imgb {
+  width: 80%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.g {
+  margin-top: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 90px;
+}
+
+.messa, .messageb {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.messageb {
+  font-size: 18px;
+}
+
+.messa {
+  color: #dd2157;
+  font-weight: bold;
+  width: 485px;
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.messagea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.messagea p {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.footera {
+  margin-top: 100px;
+  background-color: #dd2157;
+  color: white;
+}
+
+.footera h4 {
+  font-size: 14px;
+}
+
+.footerb {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footerb li {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footerd, .footere {
+  margin-left: 30px;
+}
+
+.footerm {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.footerc:hover, .footerd:hover, .footere:hover {
+  cursor: pointer;
+}
+
+.bergermenu, .close, .menulist, .berger {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .f {
+    height: 100px;
+  }
+  .material-symbols-outlined {
+    font-size: 70px;
+  }
+  .servicea {
+    font-size: 16px;
+  }
+  .icon {
+    width: 120px;
+  }
+  .a {
+    margin-left: 20px;
+  }
+  .b {
+    display: none;
+  }
+  .berger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60px;
+    height: 67px;
+    background-color: #dd2157;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+  .berger:hover {
+    cursor: pointer;
+  }
+  .bergermenu, .close {
+    color: white;
+    display: block;
+    z-index: 1;
+    padding: 10px;
+    font-size: 40px;
+  }
+  .close {
+    display: none;
+  }
+  .menulist {
+    width: 200px;
+    height: 100vh;
+    background-color: #dd2157;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding-left: 60px;
+    padding-top: 100px;
+  }
+  .menulist h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .menulist h3:hover {
+    cursor: pointer;
+  }
+  .menulist.is-active {
+    display: inline;
+    color: white;
+  }
+  .berger.is-active {
+    z-index: 2;
+  }
+  .berger.is-active .bergermenu {
+    display: none;
+  }
+  .berger.is-active .close {
+    display: inline;
+    color: white;
+  }
+  .messageb {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .g {
+    margin-bottom: 40px;
+  }
+  .messa {
+    color: #dd2157;
+    font-weight: bold;
+    width: 485px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .messagea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .messagea p {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .imgb {
+    width: 80%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+  .footera {
+    margin-top: 50px;
+    background-color: #dd2157;
+    color: white;
+  }
+  .footera h4 {
+    font-size: 12px;
+  }
+  .footerb {
+    padding-top: 40px;
+  }
+  .footerb li {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .footerm {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=message.css.map */
